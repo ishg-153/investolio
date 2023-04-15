@@ -10,6 +10,7 @@ test.py
 website.py
 Unfiltered_raw_df
 yahootickers.xlsx
+secrets.toml
 =======
 .env
 node_modules/
