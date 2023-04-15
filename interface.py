@@ -352,7 +352,7 @@ def combine_df(df_nomax, df_max):
 
 def calc_everything(max_stock_sector, max_stocks, sectors, invest_strat, monthly_invest, max_per_stock, invest_goal, years_wanted=None, df=None, total_div=0, execution=0, excluded_tickers=[]):
     """
-    This is THE MAIN FUNCTION. This funcction calls all other functions in the right order and calls itself until a return statement is reached.
+    This is THE MAIN FUNCTION. This function calls all other functions in the right order and calls itself until a return statement is reached.
     It calls itself, until either the check_if_goal returns true, or if the wanted years are reached.
     The Function makes the DataFrame if none is passed, and checks if it's the first running of the function. It calls the needed function accordingly.
 
@@ -436,10 +436,10 @@ st.write("---")
 col1, col2, col3 = st.columns(3)
 with col1:
     st.write(f"Monthly dividends goal: {invest_goal}€")
-    st.write(f"Nr. of stocks: {nr_of_stocks}")
+    st.write(f"No. of stocks: {nr_of_stocks}")
 with col2:
     st.write(f"Monthly investment: {monthly_invest}€")
-    st.write(f"Max. Nr. of stocks per sector: {max_sec}")
+    st.write(f"Max. No. of stocks per sector: {max_sec}")
 with col3:
     st.write(f"Max. contribution per share: {max_per_ps} %")
     st.write(f"Selected investment strategy: {invest_strat}")
