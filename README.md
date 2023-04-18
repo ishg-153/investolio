@@ -21,6 +21,9 @@ With this web app, we also intend to help beginners learn what needs considerati
 
 4. Calculate investment per share and  add several columns: "Shares (Amount of Shares held for this stock), "Value of Shares (the value of the shares hold in this stock), "Total Dividends" (The number of Dividends in a month this stock makes with the 'amount of shares' it has), Contribution to Goal (% that this stocks dividends contributes towards the users' defined goal)
 
+5. The dataset we've currenlty chosen to to use is static and focused more on building the model. In the future scope our goal is to integrate real-time dataset to make it actually usable.
+
+
 
 ## Result
 
@@ -36,3 +39,5 @@ Output received
 ![two year](./after%20two.png)
 ![five year](./after%20five.png)
 ![goal](./when%20goal%20reached.png)
+
+(We also tried to include Google Cloud Platform and AMD instance by hosting it in the instance but even after numerous tries it didn't work. We understand that integrating these technologies was an important criteria for the hackathon but since we had built a project around one of the themes anyways we have made a submission. We hope you understand our situation.)
